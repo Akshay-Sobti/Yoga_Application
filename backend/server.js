@@ -10,8 +10,7 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-// Use Local MongoDB URI for Compass
-const uri = "mongodb://127.0.0.1:27017/yoga_database"; // Local MongoDB
+const uri = "mongodb://127.0.0.1:27017/yoga_database";
 mongoose
   .connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log("MongoDB connected successfully"))
