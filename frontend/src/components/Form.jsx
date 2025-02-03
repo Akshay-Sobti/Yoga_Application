@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./Form.css";
-import backgroundImg from './yoga.jpg'; // Import the image
+import backgroundImg from './yoga.jpg'; 
 
 export default function Form() {
   const [user, setUser] = useState({
@@ -71,7 +71,7 @@ export default function Form() {
     <div
       className="form-container"
       style={{
-        backgroundImage: `url(${backgroundImg})`, // Set the background image
+        backgroundImage: `url(${backgroundImg})`, 
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         height: '100vh',
