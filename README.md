@@ -1,3 +1,4 @@
+![homepage](https://github.com/user-attachments/assets/2f80a15d-f6f0-4115-96a8-507bb702f0e7)
 Hello 👋
 
 I have created this project using the MERN Stack. In this web application, a user can register themselves for the yoga classes. 
